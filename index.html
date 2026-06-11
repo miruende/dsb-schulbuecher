@@ -856,9 +856,9 @@ a:hover{text-decoration:underline}
 <script>
 function showClass(idx){
   document.querySelectorAll('.class-panel').forEach(p=>p.classList.remove('active'));
-  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+  document.querySelectorAll('.class-tabs .tab-btn').forEach(b=>b.classList.remove('active'));
   document.getElementById('panel-'+idx).classList.add('active');
-  document.querySelectorAll('.tab-btn')[idx].classList.add('active');
+  document.querySelectorAll('.class-tabs .tab-btn')[idx].classList.add('active');
 }
 function showSub(btn, classIdx, key){
   const panel = document.getElementById('panel-'+classIdx);
