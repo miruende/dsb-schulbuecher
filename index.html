@@ -3,88 +3,91 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Schulbücher & Material – Einkaufshilfe | DSB 2026/2027</title>
+<title>Elterninitiative DSB – Iniciativa de Madres y Padres DSB</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f5f4f0;color:#1a1a1a;font-size:15px;line-height:1.6}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f5f4f0;color:#1a1a1a;font-size:16px;line-height:1.65}
 a{color:#1a3a5c;text-decoration:none}
 a:hover{text-decoration:underline}
-.site-header{background:#1a3a5c;color:#fff;padding:0 32px;height:58px;display:flex;align-items:center;gap:10px;position:sticky;top:0;z-index:100}
-.site-header-title{font-size:14px;font-weight:500;opacity:.9}
-.hero{background:#1a3a5c;color:#fff;padding:44px 32px 40px}
-.hero-badge{display:inline-flex;align-items:center;background:rgba(255,255,255,.12);border:0.5px solid rgba(255,255,255,.25);border-radius:20px;padding:4px 12px;font-size:12px;margin-bottom:18px}
-.hero h1{font-size:26px;font-weight:500;line-height:1.25;margin-bottom:18px}
-.hero h1 em{display:block;font-size:16px;font-weight:400;opacity:.8;font-style:italic;margin-top:4px}
-.hero-body{font-size:13.5px;line-height:1.75;opacity:.87;max-width:620px;margin-bottom:14px}
+.site-header{background:#1a3a5c;color:#fff;padding:0 40px;height:62px;display:flex;align-items:center;gap:12px;position:sticky;top:0;z-index:100}
+.site-header-title{font-size:15px;font-weight:500;opacity:.9}
+.hero{background:#1a3a5c;color:#fff;padding:60px 40px 52px}
+.hero-badge{display:inline-flex;align-items:center;background:rgba(255,255,255,.12);border:0.5px solid rgba(255,255,255,.25);border-radius:20px;padding:5px 14px;font-size:13px;margin-bottom:22px}
+.hero h1{font-size:42px;font-weight:500;line-height:1.2;margin-bottom:10px;max-width:800px}
+.hero h1 em{display:block;font-size:24px;font-weight:400;opacity:.8;font-style:italic;margin-top:6px}
+.hero-body{font-size:15px;line-height:1.8;opacity:.87;max-width:700px;margin-bottom:16px}
 .hero-body em{font-style:italic;opacity:.8}
-.hero-notice{background:rgba(255,255,255,.1);border:0.5px solid rgba(255,255,255,.2);border-radius:8px;padding:12px 16px;font-size:12.5px;line-height:1.65;opacity:.85;max-width:620px;margin-bottom:10px}
+.hero-notice{background:rgba(255,255,255,.1);border:0.5px solid rgba(255,255,255,.2);border-radius:8px;padding:14px 18px;font-size:13.5px;line-height:1.7;opacity:.85;max-width:700px;margin-bottom:12px}
 .hero-notice em{font-style:italic}
-.hero-affiliate{background:rgba(255,255,255,.07);border:0.5px solid rgba(255,255,255,.15);border-radius:8px;padding:10px 16px;font-size:12px;line-height:1.6;max-width:620px;display:flex;gap:8px;align-items:flex-start}
+.hero-affiliate{background:rgba(255,255,255,.07);border:0.5px solid rgba(255,255,255,.15);border-radius:8px;padding:12px 18px;font-size:13px;line-height:1.6;max-width:700px;display:flex;gap:10px;align-items:flex-start}
 .hero-affiliate em{font-style:italic}
-.page-content{max-width:900px;margin:0 auto;padding:28px 24px 60px}
-.legend-card{background:#fff;border:0.5px solid #ddd;border-radius:12px;padding:18px 20px;margin-bottom:24px}
-.legend-group-title{font-size:11px;font-weight:600;color:#666;text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px}
-.legend-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
-.legend-note{font-size:11.5px;color:#777;line-height:1.5}
+.page-content{max-width:1100px;margin:0 auto;padding:32px 40px 80px}
+.legend-card{background:#fff;border:0.5px solid #ddd;border-radius:12px;padding:20px 24px;margin-bottom:28px}
+.legend-group-title{font-size:12px;font-weight:600;color:#666;text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px}
+.legend-tags{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:10px}
+.legend-note{font-size:13px;color:#777;line-height:1.55}
 .legend-note em{font-style:italic}
-.legend-divider{height:0.5px;background:#eee;margin:14px 0}
-.tag-daf{background:#FFF8E1;color:#7A5700;border:0.5px solid #E8C84A;border-radius:4px;padding:2px 8px;font-size:11px;font-weight:500;white-space:nowrap}
-.tag-nus{background:#E3F2FD;color:#0D47A1;border:0.5px solid #5BAEE0;border-radius:4px;padding:2px 8px;font-size:11px;font-weight:500;white-space:nowrap}
-.tag-spaf{background:#E8F5E9;color:#1B5E20;border:0.5px solid #66BB6A;border-radius:4px;padding:2px 8px;font-size:11px;font-weight:500;white-space:nowrap}
-.tag-cat{background:#F3E5F5;color:#4A148C;border:0.5px solid #AB47BC;border-radius:4px;padding:2px 8px;font-size:11px;font-weight:500;white-space:nowrap}
-.tag-opt{background:#F3E5F5;color:#4A148C;border:0.5px solid #AB47BC;border-radius:4px;padding:2px 8px;font-size:11px;font-weight:500;white-space:nowrap}
-.isbn{background:#f0f0f0;border:0.5px solid #ddd;border-radius:3px;padding:1px 6px;font-size:10.5px;font-family:monospace;color:#444}
-.note-tag{background:#E3F2FD;color:#1565C0;border-radius:3px;padding:1px 6px;font-size:10.5px}
-.class-tabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px}
-.tab-btn{background:#fff;border:0.5px solid #ccc;border-radius:8px;padding:7px 14px;font-size:13px;font-weight:500;cursor:pointer;color:#555;transition:all .15s}
+.legend-divider{height:0.5px;background:#eee;margin:16px 0}
+.tag-daf{background:#FFF8E1;color:#7A5700;border:0.5px solid #E8C84A;border-radius:4px;padding:3px 10px;font-size:12px;font-weight:500;white-space:nowrap}
+.tag-nus{background:#E3F2FD;color:#0D47A1;border:0.5px solid #5BAEE0;border-radius:4px;padding:3px 10px;font-size:12px;font-weight:500;white-space:nowrap}
+.tag-spaf{background:#E8F5E9;color:#1B5E20;border:0.5px solid #66BB6A;border-radius:4px;padding:3px 10px;font-size:12px;font-weight:500;white-space:nowrap}
+.tag-cat{background:#F3E5F5;color:#4A148C;border:0.5px solid #AB47BC;border-radius:4px;padding:3px 10px;font-size:12px;font-weight:500;white-space:nowrap}
+.tag-opt{background:#F3E5F5;color:#4A148C;border:0.5px solid #AB47BC;border-radius:4px;padding:3px 10px;font-size:12px;font-weight:500;white-space:nowrap}
+.isbn{background:#f0f0f0;border:0.5px solid #ddd;border-radius:3px;padding:2px 7px;font-size:11.5px;font-family:monospace;color:#444}
+.note-tag{background:#E3F2FD;color:#1565C0;border-radius:3px;padding:2px 7px;font-size:11.5px}
+.class-tabs{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:22px}
+.tab-btn{background:#fff;border:0.5px solid #ccc;border-radius:8px;padding:8px 16px;font-size:14px;font-weight:500;cursor:pointer;color:#555;transition:all .15s}
 .tab-btn:hover{border-color:#888;color:#222}
 .tab-btn.active{background:#1a3a5c;color:#fff;border-color:#1a3a5c}
 .class-panel{display:none}
 .class-panel.active{display:block}
-.panel-header{background:#fff;border:0.5px solid #ddd;border-radius:12px;padding:16px 20px;margin-bottom:16px}
-.panel-header h2{font-size:18px;font-weight:500;margin-bottom:3px}
-.panel-header h2 em{font-style:italic;font-size:15px;opacity:.7}
-.panel-header p{font-size:12px;color:#777}
+.panel-header{background:#fff;border:0.5px solid #ddd;border-radius:12px;padding:18px 22px;margin-bottom:18px}
+.panel-header h2{font-size:20px;font-weight:500;margin-bottom:4px}
+.panel-header h2 em{font-style:italic;font-size:16px;opacity:.7}
+.panel-header p{font-size:13px;color:#777}
 .panel-header p em{font-style:italic}
-.sub-tabs{display:flex;gap:0;margin-bottom:16px;border:0.5px solid #ddd;border-radius:8px;overflow:hidden;background:#f8f8f8}
-.sub-tab{flex:1;padding:9px 12px;font-size:13px;font-weight:500;cursor:pointer;color:#666;text-align:center;transition:all .15s;border:none;background:transparent}
+.sub-tabs{display:flex;gap:0;margin-bottom:18px;border:0.5px solid #ddd;border-radius:8px;overflow:hidden;background:#f8f8f8}
+.sub-tab{flex:1;padding:11px 12px;font-size:14px;font-weight:500;cursor:pointer;color:#666;text-align:center;transition:all .15s;border:none;background:transparent}
 .sub-tab:not(:last-child){border-right:0.5px solid #ddd}
 .sub-tab.active{background:#1a3a5c;color:#fff}
 .sub-tab:hover:not(.active){background:#eee}
 .sub-panel{display:none}
 .sub-panel.active{display:block}
-.section-block{margin-bottom:14px}
-.section-label{font-size:11px;font-weight:600;color:#888;text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px;padding-bottom:5px;border-bottom:0.5px solid #eee}
+.section-block{margin-bottom:16px}
+.section-label{font-size:12px;font-weight:600;color:#888;text-transform:uppercase;letter-spacing:.06em;margin-bottom:9px;padding-bottom:6px;border-bottom:0.5px solid #eee}
 .section-label em{font-style:italic;font-weight:400}
-.book-row{background:#fff;border:0.5px solid #ddd;border-radius:8px;padding:11px 14px;margin-bottom:5px;display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.book-row{background:#fff;border:0.5px solid #ddd;border-radius:8px;padding:13px 16px;margin-bottom:6px;display:flex;align-items:flex-start;justify-content:space-between;gap:14px}
 .book-row-daf{background:#FFFDE7;border-color:#E8C84A}
 .book-row-nus{background:#E8F4FF;border-color:#5BAEE0}
 .book-row-spaf{background:#F1F8E9;border-color:#66BB6A}
 .book-row-cat{background:#FAF0FF;border-color:#AB47BC}
 .book-row-opt{background:#FAF0FF;border-color:#AB47BC}
 .book-info{flex:1;min-width:0}
-.book-title{font-size:13px;font-weight:500;margin-bottom:4px}
-.book-meta{font-size:12px;color:#777;display:flex;flex-wrap:wrap;gap:5px;align-items:center}
-.amz-btn{flex-shrink:0;display:inline-flex;align-items:center;gap:4px;background:#FF9900;color:#fff;border-radius:6px;padding:5px 10px;font-size:11.5px;font-weight:500;white-space:nowrap;transition:opacity .15s}
+.book-title{font-size:14px;font-weight:500;margin-bottom:5px}
+.book-meta{font-size:13px;color:#777;display:flex;flex-wrap:wrap;gap:5px;align-items:center}
+.amz-btn{flex-shrink:0;display:inline-flex;align-items:center;gap:4px;background:#FF9900;color:#fff;border-radius:6px;padding:6px 12px;font-size:12px;font-weight:500;white-space:nowrap;transition:opacity .15s}
 .amz-btn:hover{opacity:.85;text-decoration:none}
-.group-banner{display:flex;align-items:center;gap:8px;padding:7px 12px;border-radius:8px;margin-bottom:5px;font-size:12px;font-weight:500}
+.group-banner{display:flex;align-items:center;gap:8px;padding:8px 14px;border-radius:8px;margin-bottom:6px;font-size:13px;font-weight:500}
 .group-banner em{font-style:italic;font-weight:400;opacity:.85}
 .gb-daf{background:#FFF8E1;border:0.5px solid #E8C84A;color:#7A5700}
 .gb-nus{background:#E3F2FD;border:0.5px solid #5BAEE0;color:#0D47A1}
 .gb-spaf{background:#E8F5E9;border:0.5px solid #66BB6A;color:#1B5E20}
 .gb-cat{background:#F3E5F5;border:0.5px solid #AB47BC;color:#4A148C}
 .gb-opt{background:#F3E5F5;border:0.5px solid #AB47BC;color:#4A148C}
-.mat-row{background:#fff;border:0.5px solid #ddd;border-radius:8px;padding:11px 14px;margin-bottom:5px}
-.mat-title{font-size:13px;font-weight:500;margin-bottom:2px}
+.mat-row{background:#fff;border:0.5px solid #ddd;border-radius:8px;padding:13px 16px;margin-bottom:6px}
+.mat-title{font-size:14px;font-weight:500;margin-bottom:3px}
 .mat-title em{font-style:italic;color:#888;font-weight:400}
-.mat-subject{font-size:11px;color:#888;margin-bottom:6px}
-.mat-examples{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}
-.mat-link{display:inline-flex;align-items:center;gap:4px;background:#fff;border:0.5px solid #FF9900;color:#C45500;border-radius:5px;padding:3px 8px;font-size:11px;transition:background .15s}
+.mat-subject{font-size:12px;color:#888;margin-bottom:6px}
+.mat-examples{display:flex;flex-wrap:wrap;gap:6px;margin-top:7px}
+.mat-link{display:inline-flex;align-items:center;gap:4px;background:#fff;border:0.5px solid #FF9900;color:#C45500;border-radius:5px;padding:4px 10px;font-size:12px;transition:background .15s}
 .mat-link:hover{background:#FFF3E0;text-decoration:none}
-.mat-disclaimer{font-size:11px;color:#aaa;font-style:italic;margin-top:5px}
-.other-row{background:#fff;border:0.5px solid #ddd;border-radius:8px;padding:11px 14px;margin-bottom:5px;font-size:13px;color:#555;line-height:1.6}
+.mat-disclaimer{font-size:12px;color:#aaa;font-style:italic;margin-top:6px}
+.other-row{background:#fff;border:0.5px solid #ddd;border-radius:8px;padding:13px 16px;margin-bottom:6px;font-size:14px;color:#555;line-height:1.65}
 .other-row em{font-style:italic;color:#888}
-.site-footer{border-top:0.5px solid #ddd;padding:20px 32px;text-align:center;font-size:12px;color:#999;background:#fff;margin-top:20px}
+.ranzen-card{background:#fff;border:0.5px solid #ddd;border-radius:10px;padding:14px 16px;margin-bottom:6px}
+.ranzen-card-title{font-size:13px;font-weight:600;color:#1a3a5c;margin-bottom:8px;display:flex;align-items:center;gap:6px}
+.ranzen-grid{display:flex;flex-wrap:wrap;gap:8px}
+.site-footer{border-top:0.5px solid #ddd;padding:22px 40px;text-align:center;font-size:13px;color:#999;background:#fff;margin-top:20px}
 .site-footer em{font-style:italic}
 </style>
 </head>
@@ -92,11 +95,11 @@ a:hover{text-decoration:underline}
 
 <header class="site-header">
   <span style="font-size:20px">📚</span>
-  <span class="site-header-title">Elternbeirat DSB &middot; <em style="font-style:italic;opacity:.75">Consejo de Madres y Padres DSB</em></span>
+  <span class="site-header-title">Elterninitiative DSB &middot; <em style="font-style:italic;opacity:.75">Iniciativa de Madres y Padres DSB</em></span>
 </header>
 
 <div class="hero">
-  <div class="hero-badge">&#128101; Eine Initiative des Elternbeirats der DSB &middot; <em style="font-style:italic">Una iniciativa del Consejo de Madres y Padres de la DSB</em></div>
+  <div class="hero-badge">&#128101; Elterninitiative DSB &middot; <em style="font-style:italic">Iniciativa de Madres y Padres DSB</em></div>
   <h1>Schulbücher &amp; Material – Einkaufshilfe<em>Libros y material escolar – guía de compra</em></h1>
   <div class="hero-body">
     Diese Seite wurde vom Elternbeirat der DSB erstellt, um den Familien den Einkauf der Schulbücher und Schulmaterialien zu erleichtern. Grundlage sind die von der DSB veröffentlichten offiziellen Bücher- und Materiallisten.<br>
@@ -145,6 +148,10 @@ a:hover{text-decoration:underline}
     <span class="tag-opt">PU Historia del Arte &middot; PU Biología</span>
   </div>
   <div class="legend-note">Nur für Schüler, die das jeweilige Wahlpflichtfach belegt haben. &middot; <em>Solo para alumnos que cursan la optativa correspondiente.</em></div>
+  <div class="legend-divider"></div>
+  <div class="legend-group-title">⚠️ Hinweis zu den Amazon-Links &middot; <em style="font-style:italic;font-weight:400;text-transform:none">Aviso sobre los enlaces de Amazon</em></div>
+  <div class="legend-note">Die Buttons führen zu einer Amazon-Suche nach ISBN oder Titel. Bitte prüfen Sie <strong>vor dem Kauf</strong>, dass Titel, Verlag und Ausgabe mit der Liste übereinstimmen — Amazon zeigt manchmal ähnliche oder gesponserte Artikel an. Der Elternbeirat übernimmt keine Haftung für falsch bestellte Artikel oder Verfügbarkeitsänderungen bei Amazon.<br>
+  <em>Los botones llevan a una búsqueda en Amazon por ISBN o título. Por favor compruebe <strong>antes de comprar</strong> que el título, la editorial y la edición coinciden con la lista — Amazon a veces muestra artículos similares o patrocinados. El Consejo de Madres y Padres no se hace responsable de pedidos incorrectos ni de cambios en la disponibilidad de Amazon.</em></div>
 </div>
 
 <div class="class-tabs">
@@ -238,6 +245,26 @@ a:hover{text-decoration:underline}
 <div class="other-row">Hausaufgabenheft, Hefte: werden von der Schule besorgt (ca. 22€, Oktober). &middot; <em>El colegio encarga el material (aprox. 22€, octubre).</em></div>
 <div class="other-row">Spanisch: wird von der Schule bestellt (ca. 37€, Oktober). &middot; <em>El colegio encarga los libros de español (aprox. 37€, octubre).</em></div>
 <div class="other-row">Katalanisch: die Schule bestellt die Lizenz (ca. 20€, Oktober). &middot; <em>El colegio encarga la licencia de catalán (aprox. 20€, octubre).</em></div>
+<div style="margin-top:12px">
+<div class="section-label">Schulranzen · <em>Mochila escolar</em> — Empfehlungen · <em>Recomendaciones</em></div>
+<div class="other-row" style="font-size:13px;color:#666;margin-bottom:10px">Die Schule empfiehlt einen festen Schulranzen. Hier zwei bewährte Marken als Orientierung — kein Muss, keine Markenpräferenz. · <em>El colegio recomienda una mochila rígida. Aquí dos marcas orientativas — no es obligatorio ni hay preferencia de marca.</em></div>
+<div class="ranzen-card">
+  <div class="ranzen-card-title">🎒 ergobag cubo light — extra leicht, ergonomisch · <em style="font-weight:400;font-style:italic;color:#666">ultraligera, ergonómica</em></div>
+  <div class="ranzen-grid">
+    <a class="mat-link" href="https://www.amazon.de/s?k=ergobag+cubo+light+Mädchen&tag=dsbelterninit-21" target="_blank">👧 Mädchen / Niña ↗</a>
+    <a class="mat-link" href="https://www.amazon.de/s?k=ergobag+cubo+light+Jungen&tag=dsbelterninit-21" target="_blank">👦 Jungen / Niño ↗</a>
+  </div>
+  <div class="mat-disclaimer">Links zu Amazon.de · Erlöse kommen der DSB-Bibliothek zugute · <em>Enlaces a Amazon.de · Los ingresos benefician a la biblioteca de la DSB</em></div>
+</div>
+<div class="ranzen-card">
+  <div class="ranzen-card-title">🎒 Scout Alpha / Neo — klassischer Ranzen, DIN-geprüft · <em style="font-weight:400;font-style:italic;color:#666">mochila clásica, certificada DIN</em></div>
+  <div class="ranzen-grid">
+    <a class="mat-link" href="https://www.amazon.de/s?k=Scout+Schulranzen+Mädchen+Grundschule&tag=dsbelterninit-21" target="_blank">👧 Mädchen / Niña ↗</a>
+    <a class="mat-link" href="https://www.amazon.de/s?k=Scout+Schulranzen+Jungen+Grundschule&tag=dsbelterninit-21" target="_blank">👦 Jungen / Niño ↗</a>
+  </div>
+  <div class="mat-disclaimer">Links zu Amazon.de · Erlöse kommen der DSB-Bibliothek zugute · <em>Enlaces a Amazon.de · Los ingresos benefician a la biblioteca de la DSB</em></div>
+</div>
+</div>
 </div>
 </div>
 <div class="class-panel" id="panel-2">
